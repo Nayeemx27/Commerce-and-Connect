@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #faf7db;
+    background-image: url('../img/lu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b-g{
+    background-image: url('img/admins.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    background-color:rgb(255, 251, 246)
+}
+
+.font-s{
+     font-size: 30px;  
+}
+
+.c-bg {
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(10px); 
+}
+
+
+
+
+.bg{
+    background-color: rgb(241, 241, 247);
+    }
+    
+
+         
+         
+         
+
+ 
+ 
+
+

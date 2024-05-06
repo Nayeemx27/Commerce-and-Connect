@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    max-height: 200px; 
+    object-fit: cover; 
+}
+.card-bg {
+    background-color: #f8f9fa; 
+}
+.card-title {
+    color: #007bff;
+}
+
+.card-text {
+    color: #343a40; 
+}
+
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.line {
+    border-top: 1px solid #007bff; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

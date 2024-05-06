@@ -1,0 +1,18 @@
+.b-C{
+    background-color: rgb(237, 230, 215);
+}
+
+.b-g{
+   
+    background-image: url('../img/chatpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.G{
+    padding-left: 43%;
+}
+.m-bottom{
+    margin-bottom: 30px;
+}
+

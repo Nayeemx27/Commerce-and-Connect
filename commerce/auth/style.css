@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* login modal  */
+
+.modal-content {
+  width: auto;
+  height: auto;
+  background-color: rgb(10, 10, 10);
+  color: #fff;
+}
+
+.log-body {
+  background-image: url("../images/logbg.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.log-hero {
+  width: 370px;
+  height: auto;
+  background-color: rgba(150, 186, 190, 0.1);
+  position: relative;
+}
+
+.log-hero .inp-box {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+
+.log-hero input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(240, 237, 237);
+  border-radius: 37px;
+  padding: 0 15px;
+  color: white;
+}
+
+.log-hero input::placeholder {
+  color: rgb(228, 224, 220);
+  position: absolute;
+  left: 15px;
+}
+
+.log-hero .icon1 {
+  position: absolute;
+  right: 40px;
+  /* top: 50%; */
+  top: 10px;
+  /* transform: translateY(-50%); */
+  color: rgb(228, 224, 220);
+}
+.log-hero .icon2 {
+  position: absolute;
+  right: 40px;
+  /* top: 50%; */
+  top: 10px;
+  /* transform: translateY(-50%); */
+  color: rgb(228, 224, 220);
+}
+
+.log-hero .forget a {
+  color: white;
+  text-decoration: none;
+}
+
+.log-hero .forget a:hover {
+  color: #24d5e2;
+  text-decoration: underline;
+}
+
+.log-hero .logx {
+  width: 88%;
+  background-color: #0584be;
+  color: white;
+  outline: black;
+  border-radius: 37px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.sign-btn button:hover {
+  background-color: #e4e9eb;
+  color: black;
+}
+
+.register a {
+  text-decoration: none;
+  color: rgb(159, 193, 238);
+  font-weight: 500;
+}
+.register a:hover {
+  color: #24d5e2;
+}
+
+.back2log a {
+  text-decoration: none;
+  color: rgb(159, 193, 238);
+  font-weight: 500;
+}
+.back2log a:hover {
+  color: #24d5e2;
+}
+
+/* social links */
+.social-link {
+  font-size: 24px;
+  color: #03a9f4;
+  transition: transform 0.3s;
+}
+
+.separator {
+  align-items: center;
+  text-align: center;
+}
+
+.separator hr {
+  border-top: 2px solid white;
+}
+
+.separator .left-hr {
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.separator .right-hr {
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.separator .or {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* login modal ends  */
+
+p {
+  color: rgb(95, 95, 95);
+}
+#hero {
+  height: 82vh;
+}
+
+.greet {
+  margin-top: 150px;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  height: 100px;
+}
+
+.greet-btn {
+  background-image: url("../images/button.png");
+  border: none;
+  background-color: transparent;
+  padding: 14px 80px 14px 65px;
+  text-decoration: none;
+  margin-left: -20px;
+  /* margin-top: 100px; */
+  color: rgb(10, 10, 9);
+}
+
+/* Custom star styling */
+.checked {
+  color: gold;
+}
+
+.unchecked {
+  color: lightgray;
+}
+
+/* Card text style */
+.card-title {
+  font-size: medium;
+}
+.card-text {
+  font-size: medium;
+}
+
+/* card hover */
+.fproducts .card {
+  transition: transform 0.3s ease-in-out;
+
+  border-radius: 20px;
+}
+.fproducts .card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.price {
+  margin-top: 10px;
+  color: #088178;
+  font-size: 18px;
+}
+.parent {
+  position: relative;
+}
+
+.shop-cart {
+  text-align: right;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  background-color: #def5e1;
+  color: #088178;
+  position: absolute;
+  bottom: 275px;
+  right: 20px;
+}
+
+
+
+
+
+/* forget password */
+
+.send-mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reset .inp-box {
+  width: 90%;
+  height: 50px;
+  position: relative;
+}
+
+.reset input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(240, 237, 237);
+  border-radius: 25px;
+  padding: 0 15px;
+  color: white;
+}
+
+.reset .icon input::placeholder {
+  color: antiquewhite;
+  position: absolute;
+  left: 15px;
+}
+
+.reset .icon {
+  position: absolute;
+  right: 40px;
+  /* top: 50%; */
+  top: 15px;
+  /* transform: translateY(-50%); */
+  color: white;
+}
+
+.reset h2 {
+  font-size: 40px;
+  color: #03a9f4;
+}
+
+.reset h2 span {
+  font-size: 20px;
+  color: white;
+}
+
+.reset .v2 {
+  font-size: 16px;
+  color: white;
+  margin-left: 43px;
+}
+
+.reset button {
+  font-size: 14px;
+  color: rgb(250, 248, 248);
+  border-radius: 15px;
+  width: 40%;
+  font-weight: 600;
+}
+
+/* sign up  */
+
+.log-hero .sign-title h2 {
+  font-size: 40px;
+  color: #03a9f4;
+}

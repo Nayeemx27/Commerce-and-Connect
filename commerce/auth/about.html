@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../commonDesign.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+
+
+  <style>
+
+
+body {
+
+    padding: 8px;
+    background-color: white;
+}
+
+.about_sec1 {
+    /* background-color: rgb(194, 208, 223); */
+    border-radius: 10px;
+    color: black;
+    padding: 0px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+
+.text {
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 600;
+}
+h4{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bolder;
+  
+   margin-top: 40px;
+   color: rgb(31, 66, 98);
+}
+
+.team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team-member {
+    position: relative;
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: -3px 3px 5px 1px #7b7b7b;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .team-member:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlay h3,
+  .overlay p {
+    color: #fff;
+    margin: 9px 0;
+  }
+  
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+
+  <div class="banner">
+    <div class=" image text-center">
+      <img src="images/blacklogo.bg-removed.png" style="height: 200px; width: 360px;" alt="banner">
+    </div>
+     
+  </div>
+  
+
+  <div class="container">
+    <div class="row about_sec1">
+      <p class="text">
+          We aims to build a project for Students title “Commerce and Connect ”Commerce platform where students can buy and sell their products, share course materials like PDF notes and lecture slides, as well as hire university's band singers and buy band show tickets. The platform will be developed to enable students to market their products and increase their earning potential while also providing an online marketplace for other students to purchase unique items. The platform will also allow students to hire university's band singers for events and shows and purchase tickets for upcoming band performances. In addition, the platform will provide a forum for students to share course materials, engage in academic discussions, and collaborate with their peers.
+      </p>
+    </div>
+    
+    <div class="row">
+      <h4 class="p-6 p-md-5">Meet The Team</h4>
+
+    <div class="team-section">
+    <div class="team-member">
+      <img src="images/undraw_Pic_profile_re_7g2h.png"  alt="Team Member 1">
+      <div class="overlay text-center">
+        <h3>MD. Asadullah-Al-Galib</h3>
+        <p>Designation</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="team-member">
+      <img src="images/undraw_Profile_pic_re_iwgo.png" alt="Team Member 2">
+      <div class="overlay text-center">
+        <h3>Suhrath Tahra</h3>
+        <p>Designation</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="team-member">
+      <img src="images/undraw_Pic_profile_re_7g2h.png" alt= "Team Member 3">
+      <div class="overlay text-center"  >
+        <h3>H M Naymur Rahman</h3>
+        <p>Designation</p>
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  
+      </div>
+  
+    </div>
+
+  </div>
+
+</body>
+
+</html>

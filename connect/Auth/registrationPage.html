@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/registercustom.css">
+    <link rel="icon" type="image/x-icon" href="../img/c.png">
+    <title>Registration</title>
+</head>
+<body class="background">
+    <div class="container d-flex justify-content-center align-items-center">
+        <h2 class="pb-2 mt-5">WELCOME TO Commerce and Connect</h2>
+    </div>
+    <!----------------------- Main Container -------------------------->
+     <div class="container d-flex justify-content-center align-items-center">
+    <!----------------------- Login Container -------------------------->
+       <div class="row border rounded-5 p-3 bg-white shadow box-area">
+    <!--------------------------- Left Box ----------------------------->
+       <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #103cbe;">
+           <div class="featured-image mb-3">
+            <img  src="../img/pdf.jpg" class="img-fluid rounded-4" style="width: 250px;">
+           </div>
+           <p class="text-white fs-3" style="font-family: 'Courier New', Courier, monospace;">Let's Join the Community</p>
+           <small class="text-white text-wrap text-center" style="width: 17rem;font-family: 'Courier New', Courier, monospace;"></small>
+       </div> 
+    <!-------------------- ------ Right Box ---------------------------->
+       <div class="col-md-6  right-box">
+          <div class="row align-items-center">
+                <div class="header-text">
+                     <h2>Hello</h2>
+                     <p>Register here..</p>
+                </div>
+                <form  onclick="return validate();" action="../Auth/RegAction.php" method="post">
+                <div class="input-group mb-2 col-md-6">
+                    <input type="text" name="name" id="name" required class="form-control form-control-lg bg-light fs-6" placeholder="Your Name">
+                </div>
+                <div id="nameError" class="text-danger"></div>
+                <div id="namevalid" class="text-success"></div>
+
+                <div class="input-group mb-2 col-md-6">
+                    <input type="text"  name="email" id="email" required class="form-control form-control-lg bg-light fs-6" placeholder="Email address">
+                </div>
+                <span id="emailError" class="text-danger"></span>
+                <span id="emailvalid" class="text-success"></span>
+
+                <div class="input-group mb-2 col-md-6">
+                    <input type="text"  name="phone" id="phone"  required class="form-control form-control-lg bg-light fs-6" placeholder="Mobile">  
+                </div>
+                <span id="phoneError" class="text-danger"></span>
+                <span id="phonevalid" class="text-success"></span>
+
+                <div class="input-group mb-2 col-md-4">
+                    <input type="password"  name="password" id="password" required class="form-control form-control-lg bg-light fs-6" placeholder="Password">
+                </div>
+                <span id="passError" class="text-danger"></span>
+                <span id="passvalid" class="text-success"></span>
+
+                <div class="input-group mb-1">
+                    <input type="password"  name="Cpassword" id="Cpassword" required class="form-control form-control-lg bg-light fs-6" placeholder="Confirm Password">
+                </div>
+                <span id="cpass" class="text-red-500"></span>
+
+                <div class="input-group">
+                    <input type="checkbox" onclick="togglePassword()"> <span class="ms-2">Show Password</span>
+                </div>
+               
+                <div class="input-group mt-3 mb-3">
+                    <button type="submit" class="btn btn-lg btn-primary w-100 fs-6">Register</button>
+                </div>
+               </form>
+            <div class="row">
+                <small>Already have an Account? <a class="text-decoration-none" href="../Home/LandingPage.html">Login</a></small>
+            </div>
+          </div>
+       </div> 
+      </div>
+    </div>
+    <script>
+        function togglePassword() {
+            var passwordInput = document.getElementById("password");
+            var confirmPasswordInput = document.getElementById("Cpassword");
+            
+            if (passwordInput.type === "password" && confirmPasswordInput.type === "password") {
+                passwordInput.type = "text";
+                confirmPasswordInput.type = "text";
+            } else {
+                passwordInput.type = "password";
+                confirmPasswordInput.type = "password";
+            }
+        }
+    </script>
+    <script src="../js/validation.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

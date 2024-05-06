@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* body{
+    background: url(img/filebg.jpg);
+} */
+
+
+.bg-clr{
+    margin-top: 20px;
+    background: #3727e5; 
+    background: -webkit-linear-gradient(to right, #272732, #272732);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #272732, #272732); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg-youtube{
+background: #3727e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #272732, #272732);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #272732, #272732); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.img-size{
+    margin-left: 130px;
+    height: 250px;
+    width: 250px;
+}
+
+.m-center{
+    margin: auto;
+}
+
+.card-border{
+    border: none;
+}
+
+.margin-bottom{
+    color: white;
+    margin-top: 280px;
+}
+.padding-text{
+    padding: 0px 30px 0px 30px;
+}
+
+.font-IBM{
+    font-family: 'IBM Plex Mono';
+}

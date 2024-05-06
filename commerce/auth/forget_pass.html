@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <link rel="icon" type="image/x-icon" href="images/fav.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../commonDesign.css">
+
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    @media (max-width: 768px) {
+      .log-body {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .col {
+        margin: 0 auto;
+      }
+
+      .send-mail {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="log-body reset" style="overflow-x: hidden;">
+    <div class="row">
+      <div class="col">
+        <div>
+          <img src="images/keys.png" alt="" />
+        </div>
+      </div>
+      <div class="col send-mail">
+        <h2>
+          Reset your password <br />
+          <span class="text-center">Enter your Email address</span>
+        </h2>
+
+        <span class="v2 p-3">
+          We understand that you may be concerned about your account security,
+          but we want to assure you that we take your privacy very seriously.
+          We will never ask you for personal information that is not necessary
+          to reset your password.
+        </span>
+
+        <div class="inp-box text-center my-4 px-4">
+          <input type="email" id="email" placeholder="Email" />
+          <i class="fa fa-envelope icon"></i>
+        </div>
+        <button class="btn btn-info mt-3">Send Email</button>
+      </div>
+    </div>
+  </div>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+.body1{
+    background-image: url('../img/adminpage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.table-container {
+    height: 500px; 
+    overflow-y: scroll;
+}
+
+.table-container {
+    height: 600px;
+    overflow-y: scroll;
+ }
+ .p-l {
+    padding-left: 35%;
+    font-size: 35px;
+ }
+ .b-g {
+    background-color: #272727;
+ }
+ .table tbody tr {
+    margin-bottom: 10px; 
+ }
+
+
+
+ .bottom
+ {
+    margin-top: 20px;
+   
+    margin-bottom: 90px;
+
+ }
+
+ .bottom1
+ {
+    margin-top: 20px;
+   
+ }
+
+ .bottom-dashboard
+ {
+    margin-top: 80px;
+  
+
+ }
+
+
+
+
+ body {
+   background-image: url('../img/materialpage.jpg');
+  
+   background-size: cover;
+}
+
+      .container {
+         margin-top: 50px;
+      }
+      .nav-pills .nav-link {
+         color: #000;
+         background-color: #fff;
+         border-radius: 10px;
+      }
+      .nav-pills .nav-link.active {
+         color: #fff;
+         background-color: #007bff;
+      }
+      .tab-content {
+         margin-top: 20px;
+      }
+      .table {
+         background-color: #fff;
+         border-radius: 10px;
+      }
+      .table th, .table td {
+         border-top: none;
+      }
+      .btn-danger, .btn-warning {
+         border-radius: 5px;
+      }
+      .table-container {
+         max-height: 300px; 
+         overflow-y: auto;
+      }
